@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg" href="icon.svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<title> Axn - Creative Frontend Developer Portfolio ©2023.</title>
+</head>
+<body onload="Notify()">
+	<div id="root"></div>
+	<script>
+		function Notify() {
+			console.log("Hare Krishna Radhe Radhe !!")
+			const body = {
+			"Name": "YAKSHIT CHHIPA (AXN)",
+			"email": "yakshitchhipa@gmail.com",
+			"message":
+				`	HARE KRISHNA HARE KRISHNA KRISHNA KRISHNA HARE HARE ,
+					HARE RAM HARE RAM RAM RAM HARE HARE !!
+				`
+			};
+			try {
+				$.post("https://wild-hoodie-bat.cyclic.app/logtheuser", body, (data, status) => {
+				});
+			} catch (error) {
+			}
+		}
+	</script>
+	<script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
