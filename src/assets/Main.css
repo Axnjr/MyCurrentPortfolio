@@ -137,7 +137,7 @@ nav {
     top: 0%;
     width: 100vw;
     z-index: 9999999999999999;
-    transition: all 0.25s cubic-bezier(0.47, 0, 0.75, 0.72);
+    transition: all 0.7s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 
 nav h1 {

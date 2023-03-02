@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import AbtWork from './Abt&Work';
 import Loader from './Loader';
 import Menu from './Menu';
-import { MenuAppear, FancyHeadingMover , SubElements } from "./Utilities.jsx"
+import { MenuAppear, FancyHeadingMover, SubElements } from "./Utilities.jsx"
 
 
 export default function Home() {
