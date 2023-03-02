@@ -40,8 +40,8 @@ export default function Works({ bg, col }) {
         [
             "2021",
             "MSN Maps",
-            "DATA FETCHING ,API'S",
-            "https://bright-tartufo-189e52.netlify.app/",
+            "DATA FETCHING , INTERACTIVE ,API'S",
+            "https://personalmsn.netlify.app/",
         ],
         [
             "2021",
