@@ -27,6 +27,11 @@
     height: auto;
 }
 
+::selection{
+    background-color: rgb(255, 242, 0);
+    color: rgb(0, 98, 255);
+}
+
 html,
 body {
     max-width: 100vw;

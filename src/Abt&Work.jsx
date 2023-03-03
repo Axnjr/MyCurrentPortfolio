@@ -15,14 +15,12 @@ export default function AbtWork({bg,col}) {
 				gsap.to(".fancy-character-abt",{
 					opacity:1,
 					delay:0.25,
-					duration:0.01,
-					stagger:0.01
+					stagger:0.01,
 				})
 				gsap.to(".vertical-line",{
 					height:"100%",
 					backgroundColor:bg,
-					duration:2,
-					delay:0.5
+					delay:0.5,
 				})
 			}
 		} , about )
@@ -41,7 +39,7 @@ export default function AbtWork({bg,col}) {
 				gsap.to(".fancy-character-abt2",{
 					opacity:1,
 					delay:0.5,
-					duration:0.01,
+					// duration:0.01,
 					stagger:0.01
 				})
 			}
