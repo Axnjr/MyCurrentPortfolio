@@ -88,7 +88,6 @@ export default function Home() {
 
 				<SmoothScroll>
 
-				
 				<main ref={main} id="hi">
 					<div className='fancy-content-wrapper'>
 						<div>

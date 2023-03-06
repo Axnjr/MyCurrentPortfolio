@@ -30,12 +30,22 @@ const SmoothScroll = ({ children }) => {
 
     const scrollingContainerRef = useRef();
 
-    const data = {
-        ease: window.innerWidth<400 ?  0.05 : 1,
-        current: 0,
-        previous: 0,
-        rounded: 0,
-    };
+    if(window.innerWidth>400){
+        var data = {
+            ease:0.05,
+            current: 0,
+            previous: 0,
+            rounded: 0,
+        };
+    }
+    else{
+        var data = {
+            ease:0.5,
+            current: 0,
+            previous: 0,
+            rounded: 0,
+        };
+    }
 
     useEffect(() => {
         setBodyHeight();
