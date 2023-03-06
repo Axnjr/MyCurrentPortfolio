@@ -31,7 +31,7 @@ const SmoothScroll = ({ children }) => {
     const scrollingContainerRef = useRef();
 
     const data = {
-        ease: 0.05,
+        ease: window.innerWidth<400 ?  0.05 : 1,
         current: 0,
         previous: 0,
         rounded: 0,
