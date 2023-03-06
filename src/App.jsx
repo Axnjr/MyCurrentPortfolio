@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import AbtWork from './Abt&Work';
 import Loader from './Loader';
 import Menu from './Menu';
+import SmoothScroll from './Smooth';
 import { MenuAppear, FancyHeadingMover, SubElements } from "./Utilities.jsx"
 
 
@@ -69,12 +70,12 @@ export default function Home() {
 					<a href='#'><h1>Axn.</h1></a>
 					<div className='nav-list'>
 						<p onClick={HandleSwitch}>Modes</p>
-						<a href='#abt'><p>About</p></a>
-						<a href='#pro'><p>Works</p></a>
+						{/* <a href='#abt'><p></p></a>
+						<a href='#pro'><p></p></a> */}
 						<a href='https://github.com/Axnjr'><p>Github</p></a>
 						<a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
 						<a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
-						<a href='https://drive.google.com/file/d/1MYUDMOYQ9c1J5csxjTQN-_wN5gP_4JlU/view'><p>Resume</p></a>
+						<a href='https://drive.google.com/file/d/1IOwDlPfqfgFcO_hvOE7Cd3zEEaSkm9oU/view?usp=sharing'><p>Resume</p></a>
 					</div>
 					<div className='hamburger-menu-button' onClick={MenuAppear}>
 						<div></div>
@@ -82,7 +83,12 @@ export default function Home() {
 						<div></div>
 					</div>
 				</nav>
+
 				<Menu bg={bg} col={col} handleSwitch={HandleSwitch} />
+
+				<SmoothScroll>
+
+				
 				<main ref={main} id="hi">
 					<div className='fancy-content-wrapper'>
 						<div>
@@ -93,7 +99,7 @@ export default function Home() {
 						</div>
 						<div className='line'></div>
 						<div>
-							<a href='#abt'><p>Projects</p></a>
+							<a href='#abt'><p>Keep</p></a>
 							<h1 className='fancy-h1'>
 								<SubElements text="Frontend" element="span" class_of_element="fancy-character" />
 							</h1>
@@ -103,7 +109,7 @@ export default function Home() {
 							<h1 className='fancy-h1'>
 								<SubElements text="Developer, &" element="span" class_of_element="fancy-character" />
 							</h1>
-							<a href='#pro'><p>Contact</p></a>
+							<a href='#pro'><p>Scrolling</p></a>
 						</div>
 						<div className='line'></div>
 						<div>
@@ -116,6 +122,9 @@ export default function Home() {
 					</div>
 				</main>
 				<AbtWork bg={col} col={bg} />
+
+				</SmoothScroll>
+
 			</div>
 		</>
 	)
