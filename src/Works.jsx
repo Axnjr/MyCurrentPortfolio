@@ -22,7 +22,7 @@ export default function Works({ bg, col }) {
             "2023",
             "Exponential Design Studios",
             "UI/UX, DESIGN, NEXT JS",
-            "LINK PENDING",
+            "https://expodigitalstudio.vercel.app/",
         ],
         [
             "2022",

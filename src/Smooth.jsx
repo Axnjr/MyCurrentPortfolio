@@ -21,26 +21,23 @@ function useWindowSize() {
     return windowSize;
 }
 
-
-
-
 const SmoothScroll = ({ children }) => {
 
     const windowSize = useWindowSize();
 
     const scrollingContainerRef = useRef();
 
-    if(window.innerWidth>400){
+    if (window.innerWidth > 400) {
         var data = {
-            ease:0.05,
+            ease: 0.05,
             current: 0,
             previous: 0,
             rounded: 0,
         };
     }
-    else{
+    else {
         var data = {
-            ease:0.5,
+            ease: 0.5,
             current: 0,
             previous: 0,
             rounded: 0,
