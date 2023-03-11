@@ -77,10 +77,13 @@ export default function Home() {
 						<a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
 						<a href='https://drive.google.com/file/d/1IOwDlPfqfgFcO_hvOE7Cd3zEEaSkm9oU/view?usp=sharing'><p>Resume</p></a>
 					</div>
-					<div className='hamburger-menu-button' onClick={MenuAppear}>
-						<div></div>
-						<div></div>
-						<div></div>
+					<div className='hamburger-menu-button'>
+						<section style={{display:"block"}} onClick={MenuAppear}>
+							<div></div>
+							<div></div>
+							<div></div>
+						</section>
+						<p style={{ fontSize:"1.3rem" }} onClick={HandleSwitch}>MODES</p>
 					</div>
 				</nav>
 
@@ -88,7 +91,7 @@ export default function Home() {
 
 				<SmoothScroll>
 
-				<main ref={main} id="hi">
+				<main style={{ backgroundColor: bg,color:col }} ref={main} id="hi">
 					<div className='fancy-content-wrapper'>
 						<div>
 							<h1 className='fancy-h1'>
@@ -123,7 +126,6 @@ export default function Home() {
 				<AbtWork bg={col} col={bg} />
 
 				</SmoothScroll>
-
 			</div>
 		</>
 	)

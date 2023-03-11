@@ -16,18 +16,18 @@
     width: 4px;
     background-color: transparent;
 }
-  
+
 ::-webkit-scrollbar-thumb {
     background-color: currentColor;
     position: absolute;
     border-radius: 3vw;
 }
 
-#root{
+#root {
     height: auto;
 }
 
-::selection{
+::selection {
     background-color: rgb(255, 242, 0);
     color: rgb(0, 98, 255);
 }
@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     font-weight: 100;
 }
 
@@ -55,7 +55,7 @@ main {
     height: auto;
 }
 
-.menu{
+.menu {
     height: 100vh;
     width: 100vw;
     transform: translateY(-300vw);
@@ -64,23 +64,24 @@ main {
     overflow-y: scroll;
     transition: all .5s cubic-bezier(0.23, 1, 0.320, 1);
     z-index: 99999999999999999999999999999999999999999999999999999999999;
+    color: currentColor;
 }
 
-.menu svg{
+.menu svg {
     width: 2.5rem;
     height: 2.5rem;
 }
 
-.nav-list-menu{
+.nav-list-menu {
     position: absolute;
     top: 0%;
     width: 100%;
-    text-align: center;
+    text-align: right;
     padding-inline: 1rem;
     overflow-y: scroll;
 }
 
-.nav-list-menu p{
+.nav-list-menu p {
     font-size: 2.5rem;
     line-height: 2.5;
     border-bottom: 2px solid;
@@ -156,8 +157,11 @@ nav .nav-list {
     right: 3%;
 }
 
-.hamburger-menu-button{
+.hamburger-menu-button {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav .nav-list p {
@@ -429,11 +433,12 @@ footer .the-end {
 
 @media screen and (max-width:850px) {
 
-    .horizontal-line,.line{
+    .horizontal-line,
+    .line {
         height: 1.5px;
     }
 
-    .vertical-line{
+    .vertical-line {
         width: 1.5px;
     }
 
@@ -516,7 +521,7 @@ footer .the-end {
         font-size: 0.7rem;
     }
 
-    nav h1{
+    nav h1 {
         font-size: 1.4rem;
     }
 
@@ -535,25 +540,26 @@ footer .the-end {
         line-height: 1.55;
     }
 
-    .contacts h1, .credits h1{
+    .contacts h1,
+    .credits h1 {
         font-size: 0.65rem;
     }
 
-    .flowing-tech-stack h1{
+    .flowing-tech-stack h1 {
         font-size: 2.1rem;
         font-weight: 100;
     }
 
-    .bit-abt-me h1{
+    .bit-abt-me h1 {
         font-size: 1.7rem;
     }
 
-    .projects section h1{
+    .projects section h1 {
         font-size: 6rem;
         line-height: 2.5;
     }
 
-    .projects .project-cards h1{
+    .projects .project-cards h1 {
         line-height: 3;
     }
 
@@ -561,39 +567,39 @@ footer .the-end {
 
 @media (orientation: portrait) {
 
-    main div h1{
+    main div h1 {
         font-size: 14vh;
         line-height: 1.8;
     }
 
-    main div p{
+    main div p {
         display: none;
     }
 
-    .projects .project-cards{
+    .projects .project-cards {
         display: block;
     }
 
-    .projects .project-cards span{
+    .projects .project-cards span {
         line-height: 5;
     }
 
-    nav .nav-list{
+    nav .nav-list {
         display: none;
     }
 
-    nav div div{
+    nav div div {
         display: block;
     }
 }
 
-@media screen and (max-width:490px){
-    main div h1{
+@media screen and (max-width:490px) {
+    main div h1 {
         font-size: 8vh;
         line-height: 2.5;
     }
 
-    .self-flex h1{
+    .self-flex h1 {
         font-size: 9vw;
         text-align: left;
     }

@@ -4,11 +4,14 @@ import { useInView } from "react-intersection-observer";
 import { SubElements } from "./Utilities.jsx";
 import Works from "./Works";
 import Footer from "./Footer";
+
 export default function AbtWork({bg,col}) {
+
 	const about = useRef(null);
 	const about2 = useRef(null);
 	const {ref:abt,inView:abtIV} = useInView()
 	const {ref:abt2,inView:abt2IV} = useInView()
+
 	useEffect(() => {
 		gsap.context(() => {
 			if(abtIV){
@@ -48,6 +51,7 @@ export default function AbtWork({bg,col}) {
 
   return (
     <>
+		{/* <div id="abtCursor">Listen</div> */}
         <div>
 			<div ref={about} className='self-flex' id="abt">
 				<section style={{borderLeft:"none"}}></section>
@@ -65,6 +69,7 @@ export default function AbtWork({bg,col}) {
 				</h1>
 			</div>
 		</div>
+
        	<div ref={about2} className="bit-abt-me-wrapper">
 			<div className="horizontal-line"></div>
 	   		<section className="flowing-tech-stack">
@@ -83,7 +88,9 @@ export default function AbtWork({bg,col}) {
 				</h1>
 			</div>
 	   	</div>
+
 	   	<Works bg={bg} col={col}/>
+
 		<Footer/>
     </>
   )

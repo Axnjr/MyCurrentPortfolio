@@ -53,7 +53,7 @@ export default function Works({ bg, col }) {
             "2023",
             "Current Portfolio",
             "REACT, WEB DEV",
-            "LINK PENDING",
+            "https://axn.vercel.app",
         ],
         [
             "2021",
