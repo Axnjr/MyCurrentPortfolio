@@ -9,12 +9,10 @@ export default function Menu({bg,col,handleSwitch}) {
                 </svg>
             </p>
             <p onClick={handleSwitch}>Modes</p>
-            {/* <a href='#abt' onClick={MenuClose}><p>About</p></a>
-						<a href='#pro' onClick={MenuClose}><p>Works</p></a> */}
             <a href='https://github.com/Axnjr'><p>Github</p></a>
             <a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
             <a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
-            <a href='https://drive.google.com/file/d/1IOwDlPfqfgFcO_hvOE7Cd3zEEaSkm9oU/view?usp=sharing'><p>Resume</p></a>
+            <a href='https://drive.google.com/file/d/1OqikU2PYGF0qyzejatS_bc2muo3CGtRG/view'><p>Resume</p></a>
         </div>
     </div>
   )

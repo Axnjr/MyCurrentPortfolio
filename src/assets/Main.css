@@ -159,7 +159,7 @@ nav .nav-list {
 
 .hamburger-menu-button {
     cursor: pointer;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -588,7 +588,11 @@ footer .the-end {
         display: none;
     }
 
-    nav div div {
+    nav .hamburger-menu-button{
+        display: flex;
+    }
+
+    nav div div{
         display: block;
     }
 }

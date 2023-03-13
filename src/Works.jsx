@@ -76,7 +76,7 @@ export default function Works({ bg, col }) {
                 <h1>Selected Projects &nbsp; </h1>
             </section>
 
-            <div>
+            <div className="project_container">
                 {
                     project_object.map((element, id) => {
                         return (
