@@ -21,7 +21,7 @@ export default function Works({ bg, col }) {
         [
             "2023",
             "Exponential Design Studios",
-            "UI/UX, DESIGN, NEXT JS",
+            "UI/UX, DESIGN, FREELANCE",
             "https://expodigitalstudio.vercel.app/",
         ],
         [
@@ -33,7 +33,7 @@ export default function Works({ bg, col }) {
         [
             "2022",
             "Sorting Algorithm Visualizer",
-            "DSA, REACT, CODING",
+            "DSA, REDUX, REACT",
             "https://sortalgo-visualizer.vercel.app/",
         ],
         ["2022", "User logging API", "BACKEND, REST API", "https://github.com/Axnjr/UserLoger-API-Complete-Backend"],
@@ -41,6 +41,12 @@ export default function Works({ bg, col }) {
             "2021",
             "MSN Maps",
             "DATA FETCHING , INTERACTIVE ,API'S",
+            "https://personalmsn.netlify.app/",
+        ],
+        [
+            "2023",
+            "React Pagination/E-commerce",
+            "DATA FETCHING , REACTJS ,API'S",
             "https://personalmsn.netlify.app/",
         ],
         [
@@ -52,7 +58,7 @@ export default function Works({ bg, col }) {
         [
             "2023",
             "Current Portfolio",
-            "REACT, WEB DEV",
+            "REACTJS, REDUX, WEB DEV",
             "https://axn.vercel.app",
         ],
         [

@@ -1,5 +1,5 @@
 import gsap from 'gsap';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import AbtWork from './Abt&Work';
 import Loader from './Loader';
 import Menu from './Menu';
@@ -55,7 +55,7 @@ export default function Home() {
 		["black", "white"],
 	];
 
-	function HandleSwitch() {
+	function HandleSwitch(){
 		setBg(x => x = bgArray[switchClicked][0]);
 		setCol(x => x = bgArray[switchClicked][1]);
 		if (switchClicked < bgArray.length - 1) setSwitchClicked(sw => sw + 1);
@@ -70,12 +70,10 @@ export default function Home() {
 					<a href='#'><h1>Axn.</h1></a>
 					<div className='nav-list'>
 						<p onClick={HandleSwitch}>Modes</p>
-						{/* <a href='#abt'><p></p></a>
-						<a href='#pro'><p></p></a> */}
 						<a href='https://github.com/Axnjr'><p>Github</p></a>
 						<a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
 						<a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
-						<a href='https://drive.google.com/file/d/18LimNG29KNYusZjOvwUWEqCI-1SbG_n9/view?usp=sharing'><p>Resume</p></a>
+						<a href='https://drive.google.com/file/d/1C8rgL0Qk6jtJzx651sKlTxyI8h7mim-_/view?usp=sharing'><p>Resume</p></a>
 					</div>
 					<div className='hamburger-menu-button'>
 						<section style={{display:"block"}} onClick={MenuAppear}>

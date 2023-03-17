@@ -12,7 +12,7 @@ export default function Menu({bg,col,handleSwitch}) {
             <a href='https://github.com/Axnjr'><p>Github</p></a>
             <a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
             <a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
-            <a href='https://drive.google.com/file/d/18LimNG29KNYusZjOvwUWEqCI-1SbG_n9/view?usp=sharing'><p>Resume</p></a>
+            <a href='https://drive.google.com/file/d/1C8rgL0Qk6jtJzx651sKlTxyI8h7mim-_/view?usp=sharing'><p>Resume</p></a>
         </div>
     </div>
   )
