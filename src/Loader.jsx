@@ -1,7 +1,9 @@
 import { SubElements } from './Utilities.jsx';
 import gsap from 'gsap';
 import { useEffect, useRef } from 'react';
+
 export default function Loader() {
+
 	const load = useRef(null)
 	useEffect(() => {
 		gsap.context(() => {
@@ -22,7 +24,7 @@ export default function Loader() {
 			})
 		}, load)
 	}, [])
-
+	
 	return (
 		<div ref={load}>
 			<div className="loader">

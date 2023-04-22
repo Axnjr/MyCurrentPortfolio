@@ -88,9 +88,7 @@ export default function AbtWork({bg,col}) {
 				</h1>
 			</div>
 	   	</div>
-
 	   	<Works bg={bg} col={col}/>
-
 		<Footer/>
     </>
   )

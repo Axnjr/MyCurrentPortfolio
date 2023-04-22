@@ -1,10 +1,12 @@
 import gsap from 'gsap';
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import AbtWork from './Abt&Work';
 import Loader from './Loader';
 import Menu from './Menu';
 import SmoothScroll from './Smooth';
 import { MenuAppear, FancyHeadingMover, SubElements } from "./Utilities.jsx"
+import AnimatedCursor from "react-animated-cursor"
+// ~ import Try from './Try';
 
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
 	const [bg, setBg] = useState("black");
 	const [col, setCol] = useState("white");
 	const [switchClicked, setSwitchClicked] = useState(0);
+	const [parity, setParity] = useState(1) // ~ 1 - odd -|- 0 - even //
+	// ~ const themeContext = createContext([bg,col])
 
 	FancyHeadingMover()
 
@@ -43,19 +47,19 @@ export default function Home() {
 	let bgArray = [
 		["white", "black"],
 		["red", "black"],
-		["black", "red"],
+		// ["black", "red"],
 		["#FFFF33", "black"],
-		["black", "#FFFF33"],
-		["black", "#fd900f"],
+		// ["black", "#FFFF33"],
+		// ["black", "#fd900f"],
 		["#fd900f", "black"],
-		["black", "#ccfe01"],
+		// ["black", "#ccfe01"],
 		["#ccfe01", "black"],
 		["yellow", "blue"],
 		["blue", "yellow"],
 		["black", "white"],
 	];
 
-	function HandleSwitch(){
+	function HandleSwitch() {
 		setBg(x => x = bgArray[switchClicked][0]);
 		setCol(x => x = bgArray[switchClicked][1]);
 		if (switchClicked < bgArray.length - 1) setSwitchClicked(sw => sw + 1);
@@ -65,6 +69,25 @@ export default function Home() {
 	return (
 		<>
 			<Loader />
+			{/* // ~ <div themeContext={themeContext}><Try /></div> */}
+			<AnimatedCursor
+				innerSize={15}
+				outerSize={25}
+				// * color = "0, 0, 0"
+				outerAlpha={0.65}
+				innerScale={0.7}
+				outerScale={3}
+				trailingSpeed={4}
+				hasBlendMode={true}
+				outerStyle={{
+					mixBlendMode: 'difference',
+					backgroundColor: switchClicked / 2 === 0 ? col : bg
+				}}
+				innerStyle={{
+					mixBlendMode: 'difference',
+					backgroundColor: switchClicked / 2 === 0 ? col : bg
+				}}
+			/>
 			<div className='WRAPPER'>
 				<nav style={{ backgroundColor: bg }}>
 					<a href='#'><h1>Axn.</h1></a>
@@ -76,53 +99,49 @@ export default function Home() {
 						<a href='https://drive.google.com/file/d/1C8rgL0Qk6jtJzx651sKlTxyI8h7mim-_/view?usp=sharing'><p>Resume</p></a>
 					</div>
 					<div className='hamburger-menu-button'>
-						<section style={{display:"block"}} onClick={MenuAppear}>
+						<section style={{ display: "block" }} onClick={MenuAppear}>
 							<div></div>
 							<div></div>
 							<div></div>
 						</section>
-						<p style={{ fontSize:"1.3rem" }} onClick={HandleSwitch}>MODES</p>
+						<p style={{ fontSize: "1.3rem" }} onClick={HandleSwitch}>MODES</p>
 					</div>
 				</nav>
-
 				<Menu bg={bg} col={col} handleSwitch={HandleSwitch} />
-
 				<SmoothScroll>
-
-				<main style={{ backgroundColor: bg,color:col }} ref={main} id="hi">
-					<div className='fancy-content-wrapper'>
-						<div>
-							<h1 className='fancy-h1'>
-								<SubElements text="Creative" element="span" class_of_element="fancy-character" />
-							</h1>
-							<p onClick={HandleSwitch}>Modes</p>
+					<main style={{ backgroundColor: bg, color: col }} ref={main} id="hi">
+						<div className='fancy-content-wrapper'>
+							<div>
+								<h1 className='fancy-h1'>
+									<SubElements text="Creative" element="span" class_of_element="fancy-character" />
+								</h1>
+								<p onClick={HandleSwitch}>Modes</p>
+							</div>
+							<div className='line'></div>
+							<div>
+								<a href='#abt'><p>Keep</p></a>
+								<h1 className='fancy-h1'>
+									<SubElements text="Frontend" element="span" class_of_element="fancy-character" />
+								</h1>
+							</div>
+							<div className='line'></div>
+							<div>
+								<h1 className='fancy-h1'>
+									<SubElements text="Developer, &" element="span" class_of_element="fancy-character" />
+								</h1>
+								<a href='#pro'><p>Scrolling</p></a>
+							</div>
+							<div className='line'></div>
+							<div>
+								<a href='#end'><p>©2023</p></a>
+								<h1 className='fancy-h1'>
+									<SubElements text="Engineer" element="span" class_of_element="fancy-character" />
+								</h1>
+							</div>
+							<div className='line'></div>
 						</div>
-						<div className='line'></div>
-						<div>
-							<a href='#abt'><p>Keep</p></a>
-							<h1 className='fancy-h1'>
-								<SubElements text="Frontend" element="span" class_of_element="fancy-character" />
-							</h1>
-						</div>
-						<div className='line'></div>
-						<div>
-							<h1 className='fancy-h1'>
-								<SubElements text="Developer, &" element="span" class_of_element="fancy-character" />
-							</h1>
-							<a href='#pro'><p>Scrolling</p></a>
-						</div>
-						<div className='line'></div>
-						<div>
-							<a href='#end'><p>©2023</p></a>
-							<h1 className='fancy-h1'>
-								<SubElements text="Engineer" element="span" class_of_element="fancy-character" />
-							</h1>
-						</div>
-						<div className='line'></div>
-					</div>
-				</main>
-				<AbtWork bg={col} col={bg} />
-
+					</main>
+					<AbtWork bg={col} col={bg} />
 				</SmoothScroll>
 			</div>
 		</>

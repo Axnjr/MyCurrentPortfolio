@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* font-family: 'Open Sans', sans-serif; */
+
 @font-face {
     font-family: "HK";
     src: url("NHaasGroteskDSPro-55Rg.4df8dc33.woff") format("woff");
@@ -142,7 +144,7 @@ nav {
     transform: translateY(-35vw);
     top: 0%;
     width: 100vw;
-    z-index: 9999999999999999;
+    z-index: 99;
     transition: all 0.7s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 
