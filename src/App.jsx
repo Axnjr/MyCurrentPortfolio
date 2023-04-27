@@ -8,7 +8,6 @@ import { MenuAppear, FancyHeadingMover, SubElements } from "./Utilities.jsx"
 import AnimatedCursor from "react-animated-cursor"
 // ~ import Try from './Try';
 
-
 export default function Home() {
 
 	const main = useRef(null)

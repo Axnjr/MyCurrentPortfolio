@@ -47,7 +47,7 @@ export default function Works({ bg, col }) {
             "2023",
             "React Pagination/E-commerce",
             "DATA FETCHING , REACTJS ,API'S",
-            "https://personalmsn.netlify.app/",
+            "https://e-comm-riq.netlify.app/",
         ],
         [
             "2021",

@@ -79,6 +79,4 @@ const SmoothScroll = ({ children }) => {
     );
 };
 
-
-
 export default SmoothScroll;
