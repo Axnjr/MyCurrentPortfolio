@@ -119,6 +119,7 @@ main div h1 {
     font-size: 22.2vh;
     -webkit-text-stroke: 0.1vw;
     white-space: nowrap;
+    letter-spacing: 0.5px;
     margin-inline: 1.5vw;
     transform: translateY(50vw);
     transition: all .25s linear;

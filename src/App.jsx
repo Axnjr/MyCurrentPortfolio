@@ -45,7 +45,7 @@ export default function Home() {
 
 	let bgArray = [
 		["white", "black"],
-		["red", "black"],
+		["red", "white"],
 		// ["black", "red"],
 		["#FFFF33", "black"],
 		// ["black", "#FFFF33"],
@@ -70,13 +70,13 @@ export default function Home() {
 			<Loader />
 			{/* // ~ <div themeContext={themeContext}><Try /></div> */}
 			<AnimatedCursor
-				innerSize={15}
-				outerSize={25}
+				innerSize={5}
+				outerSize={15}
 				// * color = "0, 0, 0"
 				outerAlpha={0.65}
 				innerScale={0.7}
 				outerScale={3}
-				trailingSpeed={4}
+				trailingSpeed={8}
 				hasBlendMode={true}
 				outerStyle={{
 					mixBlendMode: 'difference',
@@ -118,7 +118,7 @@ export default function Home() {
 							</div>
 							<div className='line'></div>
 							<div>
-								<a href='#abt'><p>Keep</p></a>
+								<a><p>Keep</p></a>
 								<h1 className='fancy-h1'>
 									<SubElements text="Frontend" element="span" class_of_element="fancy-character" />
 								</h1>
@@ -128,11 +128,11 @@ export default function Home() {
 								<h1 className='fancy-h1'>
 									<SubElements text="Developer, &" element="span" class_of_element="fancy-character" />
 								</h1>
-								<a href='#pro'><p>Scrolling</p></a>
+								<a><p>Scrolling</p></a>
 							</div>
 							<div className='line'></div>
 							<div>
-								<a href='#end'><p>©2023</p></a>
+								<a><p>©2023</p></a>
 								<h1 className='fancy-h1'>
 									<SubElements text="Engineer" element="span" class_of_element="fancy-character" />
 								</h1>
