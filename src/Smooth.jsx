@@ -49,8 +49,7 @@ const SmoothScroll = ({ children }) => {
     }, [windowSize.height]);
 
     const setBodyHeight = () => {
-        document.body.style.height = `${scrollingContainerRef.current.getBoundingClientRect().height
-            }px`;
+        document.body.style.height = `${scrollingContainerRef.current.getBoundingClientRect().height}px`;
     };
 
     useEffect(() => {

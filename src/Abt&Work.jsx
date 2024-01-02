@@ -73,18 +73,26 @@ export default function AbtWork({bg,col}) {
        	<div ref={about2} className="bit-abt-me-wrapper">
 			<div className="horizontal-line"></div>
 	   		<section className="flowing-tech-stack">
-				<h1>React &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; mongoDb &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp;</h1>
-				<h1>React &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; mongoDb &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp;</h1>
-				<h1>React &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; mongoDb &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp;</h1>
-				<h1>React &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; mongoDb &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp;</h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
 			</section>
 			<div className="horizontal-line"></div>
 			<div className="bit-abt-me" ref={abt2}>
 				<h1>
-					<SubElements text="I completed my Computer science degree in 2019 and am currently learning AI. Above is my overflowing tech stack. I have 2+ years of experience in web & app development and over 4+ years in software and programming." element="span" class_of_element="fancy-character-abt2" />
+					<SubElements text={`
+						Indeed a fresher in the industry, but I already have 4+ years of experience in programming,
+					 	30+ meaningful projects no clones. Above is my overflowing tech stack. I'm currently working on
+						Blazze.js 
+					`} element="span" class_of_element="fancy-character-abt2" />
 				</h1>
 				<h1>
-					<SubElements text="I'm currently looking for a job, but still available for freelance work in the meantime. Feel free to contact me if you have a referral for me, want to collaborate on future projects, or have a little chat." element="span" class_of_element="fancy-character-abt2" />
+					<SubElements text={`
+						I'm pursing engineering in AIML, currently in my third year of college.
+						Feel free to contact me if you have a referral for me, want to collaborate on future projects,
+						or have a little chat.
+					`} element="span" class_of_element="fancy-character-abt2" />
 				</h1>
 			</div>
 	   	</div>

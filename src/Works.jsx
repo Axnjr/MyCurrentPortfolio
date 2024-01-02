@@ -19,53 +19,52 @@ export default function Works({ bg, col }) {
 
     const project_object = [
         [
+            "2024",
+            "Blazze.js - Soon",
+            "Backend, Core Development, Express, Nodejs, Typescript",
+            ""
+        ],
+        [
+            "2024",
+            "React Interview Questions - Soon",
+            "Open-source, JS, TS, Interview-prep, Currated-list",
+            ""
+        ],
+        [
             "2023",
-            "Exponential Design Studios",
-            "UI/UX, DESIGN, FREELANCE",
-            "https://expodigitalstudio.vercel.app/",
+            "Free AI",
+            "Full-Stack, SAAS, AI, API's",
+            "https://github.com/Axnjr/FreeAI-APIServices",
+        ],
+        [
+            "2023",
+            "Clickk Anonymous messenger",
+            "Full-Stack, Saas, Micro-service Architecture",
+            "https://github.com/Axnjr/Clickk-AnonymousMessager",
         ],
         [
             "2022",
             "Radha Programming Lang",
-            "PURE VANILA JS, CODONG",
+            "Pure Vanilla JS, Core-dev",
             "https://github.com/Axnjr/Radha-Programming-Language",
         ],
         [
             "2022",
             "Sorting Algorithm Visualizer",
-            "DSA, REDUX, REACT",
+            "DSA, ReactJS, Core-dev",
             "https://sortalgo-visualizer.vercel.app/",
         ],
-        ["2022", "User logging API", "BACKEND, REST API", "https://github.com/Axnjr/UserLoger-API-Complete-Backend"],
         [
             "2021",
             "MSN Maps",
-            "DATA FETCHING , INTERACTIVE ,API'S",
+            "API integration, Interactive, Vanilla-JS",
             "https://personalmsn.netlify.app/",
         ],
         [
             "2023",
-            "React Pagination/E-commerce",
-            "DATA FETCHING , REACTJS ,API'S",
-            "https://e-comm-riq.netlify.app/",
-        ],
-        [
-            "2021",
-            "Split Text Package",
-            "NPM PACKAGE, CODING , JS ",
-            "https://axnjr.github.io/SubTextJS/",
-        ],
-        [
-            "2023",
             "Current Portfolio",
-            "REACTJS, REDUX, WEB DEV",
+            "ReactJS, Web Dev, Design",
             "https://axn.vercel.app",
-        ],
-        [
-            "2021",
-            "Letter Game",
-            "SPEECH RECOGNITION, WEB DEV",
-            "https://letter-game-nine.vercel.app/",
         ],
     ];
 

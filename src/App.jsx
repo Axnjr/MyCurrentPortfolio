@@ -5,8 +5,6 @@ import Loader from './Loader';
 import Menu from './Menu';
 import SmoothScroll from './Smooth';
 import { MenuAppear, FancyHeadingMover, SubElements } from "./Utilities.jsx"
-import AnimatedCursor from "react-animated-cursor"
-// ~ import Try from './Try';
 
 export default function Home() {
 
@@ -14,8 +12,6 @@ export default function Home() {
 	const [bg, setBg] = useState("black");
 	const [col, setCol] = useState("white");
 	const [switchClicked, setSwitchClicked] = useState(0);
-	const [parity, setParity] = useState(1) // ~ 1 - odd -|- 0 - even //
-	// ~ const themeContext = createContext([bg,col])
 
 	FancyHeadingMover()
 
@@ -46,6 +42,7 @@ export default function Home() {
 	let bgArray = [
 		["white", "black"],
 		["red", "white"],
+		// ["#372595","white"],
 		// ["black", "red"],
 		["#FFFF33", "black"],
 		// ["black", "#FFFF33"],
@@ -68,31 +65,13 @@ export default function Home() {
 	return (
 		<>
 			<Loader />
-			{/* // ~ <div themeContext={themeContext}><Try /></div> */}
-			<AnimatedCursor
-				innerSize={5}
-				outerSize={15}
-				// * color = "0, 0, 0"
-				outerAlpha={0.65}
-				innerScale={0.7}
-				outerScale={3}
-				trailingSpeed={8}
-				hasBlendMode={true}
-				outerStyle={{
-					mixBlendMode: 'difference',
-					backgroundColor: switchClicked / 2 === 0 ? col : bg
-				}}
-				innerStyle={{
-					mixBlendMode: 'difference',
-					backgroundColor: switchClicked / 2 === 0 ? col : bg
-				}}
-			/>
 			<div className='WRAPPER'>
 				<nav style={{ backgroundColor: bg }}>
 					<a href='#'><h1>Axn.</h1></a>
 					<div className='nav-list'>
 						<p onClick={HandleSwitch}>Modes</p>
 						<a href='https://github.com/Axnjr'><p>Github</p></a>
+						<a href='https://twitter.com/YC59094'><p>Twitter</p></a>
 						<a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
 						<a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
 						<a href='https://drive.google.com/file/d/1C8rgL0Qk6jtJzx651sKlTxyI8h7mim-_/view?usp=sharing'><p>Resume</p></a>
@@ -120,7 +99,7 @@ export default function Home() {
 							<div>
 								<a><p>Keep</p></a>
 								<h1 className='fancy-h1'>
-									<SubElements text="Frontend" element="span" class_of_element="fancy-character" />
+									<SubElements text="Fullstack" element="span" class_of_element="fancy-character" />
 								</h1>
 							</div>
 							<div className='line'></div>
@@ -132,7 +111,7 @@ export default function Home() {
 							</div>
 							<div className='line'></div>
 							<div>
-								<a><p>©2023</p></a>
+								<a><p>©2024</p></a>
 								<h1 className='fancy-h1'>
 									<SubElements text="Engineer" element="span" class_of_element="fancy-character" />
 								</h1>

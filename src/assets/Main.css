@@ -4,8 +4,6 @@
     margin: 0;
 }
 
-/* font-family: 'Open Sans', sans-serif; */
-
 @font-face {
     font-family: "HK";
     src: url("NHaasGroteskDSPro-55Rg.4df8dc33.woff") format("woff");
@@ -15,12 +13,12 @@
 }
 
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 8px;
     background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: currentColor;
+    background-color: gray;
     position: absolute;
     border-radius: 3vw;
 }
@@ -41,6 +39,7 @@ body {
     font-family: "HK";
     height: auto;
     scroll-behavior: smooth;
+    cursor: alias;
 }
 
 a {
@@ -213,7 +212,7 @@ nav div div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5vw;
+    font-size: 4vw;
     width: 80%;
 }
 
@@ -235,7 +234,7 @@ nav div div {
 
 .flowing-tech-stack h1 {
     animation: scrollText 30s infinite linear;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 5vw;
     white-space: nowrap;
     line-height: 1;
@@ -251,7 +250,7 @@ nav div div {
 }
 
 .bit-abt-me h1 {
-    font-size: 3.2vw;
+    font-size: 2.5vw;
     text-align: left;
     padding-block: 25%;
     padding-inline: 4vw;
