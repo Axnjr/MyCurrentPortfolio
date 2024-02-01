@@ -73,10 +73,10 @@ export default function AbtWork({bg,col}) {
        	<div ref={about2} className="bit-abt-me-wrapper">
 			<div className="horizontal-line"></div>
 	   		<section className="flowing-tech-stack">
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|</h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
 			</section>
 			<div className="horizontal-line"></div>
 			<div className="bit-abt-me" ref={abt2}>
@@ -84,7 +84,7 @@ export default function AbtWork({bg,col}) {
 					<SubElements text={`
 						Indeed a fresher in the industry, but I already have 4+ years of experience in programming,
 					 	30+ meaningful projects no clones. Above is my overflowing tech stack. I'm currently working on
-						Blazze.js 
+						Raman IDE
 					`} element="span" class_of_element="fancy-character-abt2" />
 				</h1>
 				<h1>

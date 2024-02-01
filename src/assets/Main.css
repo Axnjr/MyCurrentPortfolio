@@ -86,7 +86,7 @@ main {
     font-size: 2.5rem;
     line-height: 2.5;
     border-bottom: 2px solid;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     cursor: pointer;
 }
 
@@ -167,10 +167,11 @@ nav .nav-list {
 }
 
 nav .nav-list p {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     margin-inline: 1vw;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     cursor: pointer;
+    font-weight: 500;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
@@ -301,6 +302,11 @@ nav div div {
     font-size: 1.5vw;
 }
 
+.project-tags{
+    letter-spacing: 1px;
+    padding: 1px;
+}
+
 footer {
     height: auto;
     padding-block: 2vw;
@@ -349,7 +355,6 @@ footer .the-end {
 .contacts h1,
 .credits h1 {
     font-size: 1.5vw;
-    text-transform: uppercase;
     line-height: 1.5;
 }
 

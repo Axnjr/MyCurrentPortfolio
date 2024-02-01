@@ -1,6 +1,6 @@
 export default function Works({ bg, col }) {
 
-    function ProjectDivs({ id, name, date, type, link }) {
+    function ProjectDivs({ id, name, date, type, link, desc }) {
         return (
             <a href={link}>
                 <div
@@ -10,8 +10,12 @@ export default function Works({ bg, col }) {
                     onMouseLeave={() => ChnageBGFG(id, false)}
                     onTouchStart={() => ChnageBGFG(id, true)}
                     onTouchEnd={() => ChnageBGFG(id, false)}>
-                    <h1 id={`project-cards-h2${id}`}>{name} <span>&nbsp; - {date}</span></h1>
-                    <div className="type-of-project" id={"types" + id}><span>{type}</span></div>
+                    <h1 id={`project-cards-h2${id}`}>{name} 
+                        <span>&nbsp; - {date}</span>
+                    </h1>
+                    <div className="type-of-project" id={"types" + id}>
+                        <span className="project-tags" style={{letterSpacing:"1px"}}>{type}</span>
+                    </div>
                 </div>
             </a>
         );
@@ -20,27 +24,40 @@ export default function Works({ bg, col }) {
     const project_object = [
         [
             "2024",
-            "Blazze.js - Soon",
-            "Backend, Core Development, Express, Nodejs, Typescript",
+            "RamanIDE - Soon",
+            "RUST, Core Dev, Desktop App, My own Code-editor",
             ""
         ],
         [
             "2024",
-            "React Interview Questions - Soon",
-            "Open-source, JS, TS, Interview-prep, Currated-list",
-            ""
+            "Blazze.js",
+            "Backend, Core Dev, Express, Nodejs, Typescript",
+            "https://blazzejs.xyz",
+            "A powerfull JS framework to write typesafe API's like a breeze."
         ],
         [
             "2023",
             "Free AI",
             "Full-Stack, SAAS, AI, API's",
-            "https://github.com/Axnjr/FreeAI-APIServices",
+            "https://freeaiapi.vercel.app/",
         ],
         [
             "2023",
             "Clickk Anonymous messenger",
             "Full-Stack, Saas, Micro-service Architecture",
             "https://github.com/Axnjr/Clickk-AnonymousMessager",
+        ],
+        [
+            "2023",
+            "Current Portfolio",
+            "ReactJS, Web Dev, Design",
+            "https://axn.vercel.app",
+        ],
+        [
+            "2023",
+            "My Portfolio Template",
+            "ReactJS, Web Dev, Design",
+            "https://github.com/Axnjr/Portfolio-template",
         ],
         [
             "2022",
@@ -61,10 +78,10 @@ export default function Works({ bg, col }) {
             "https://personalmsn.netlify.app/",
         ],
         [
-            "2023",
-            "Current Portfolio",
-            "ReactJS, Web Dev, Design",
-            "https://axn.vercel.app",
+            "2020",
+            "Letter Game",
+            "Game dev, ReactJS, DSA, Speech Recognition",
+            "https://personalmsn.netlify.app/",
         ],
     ];
 
@@ -92,6 +109,7 @@ export default function Works({ bg, col }) {
                                 name={element[1]}
                                 type={element[2]}
                                 link={element[3]}
+                                desc={element[4]}
                             />
                         );
                     })}
