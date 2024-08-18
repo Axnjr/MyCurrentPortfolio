@@ -82,14 +82,14 @@ export default function AbtWork({bg,col}) {
 			<div className="bit-abt-me" ref={abt2}>
 				<h1>
 					<SubElements text={`
-						Indeed a fresher in the industry, but I already have 4+ years of experience in programming,
-					 	30+ meaningful projects no clones. Above is my overflowing tech stack. I'm currently working on
-						Raman IDE
+     						I'm litrally Full Stack Developer: Embedded Systems, Machine Learning, Cloud Infrastructure, & Web.
+						Above is my overflowing tech stack. I'm currently working on SNN a C++ deep learning framework as a 
+      						final year major project.
 					`} element="span" class_of_element="fancy-character-abt2" />
 				</h1>
 				<h1>
 					<SubElements text={`
-						I'm pursing engineering in AIML, currently in my third year of college.
+						I'm pursing engineering in AIML, currently in my final year of college.
 						Feel free to contact me if you have a referral for me, want to collaborate on future projects,
 						or have a little chat.
 					`} element="span" class_of_element="fancy-character-abt2" />
