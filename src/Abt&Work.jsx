@@ -63,8 +63,8 @@ export default function AbtWork({bg,col}) {
 				<section></section>
 				<div className="vertical-line"></div>
 				<h1 ref={abt}>
-					<SubElements text='A developer dedicated to crafting websites with great attention
-					to scalability, performance and details, living on planet Earth, 
+					<SubElements text='A developer dedicated to building scalable, high-performance applications 
+					with meticulous attention to detail,, living on planet Earth, 
 					based in Mumbai, India.' element="span" class_of_element="fancy-character-abt" />
 				</h1>
 			</div>
