@@ -24,7 +24,7 @@ export default function Works({ bg, col }) {
     const project_object = [
         [
             "2024",
-            "SNN - Soon",
+            "Simple Neural-networks (SNN) - Soon",
             "C++, Core Dev, Deep Learning Framework, Machine-learning, Embeded programming",
             ""
         ],
@@ -46,6 +46,12 @@ export default function Works({ bg, col }) {
             "Backend, Core Dev, Express, Nodejs, Typescript",
             "https://blazzejs.xyz",
             "A powerfull JS framework to write typesafe API's like a breeze."
+        ],
+        [
+            "2022",
+            "Radha Programming Lang",
+            "Core-Java, Javascript, OOP, Core-dev, My Own programming language",
+            "https://github.com/Axnjr/Radha-Programming-Language",
         ],
         [
             "2023",
@@ -70,12 +76,6 @@ export default function Works({ bg, col }) {
             "My Portfolio Template",
             "ReactJS, Web Dev, Design",
             "https://github.com/Axnjr/Portfolio-template",
-        ],
-        [
-            "2022",
-            "Radha Programming Lang",
-            "Core-Java, Javascript, OOP, Core-dev, My Own programming language",
-            "https://github.com/Axnjr/Radha-Programming-Language",
         ],
         [
             "2022",
