@@ -24,9 +24,21 @@ export default function Works({ bg, col }) {
     const project_object = [
         [
             "2024",
-            "RamanIDE - Soon",
-            "RUST, Core Dev, Desktop App, My own Code-editor",
+            "SNN - Soon",
+            "C++, Core Dev, Deep Learning Framework, Machine-learning, Embeded programming",
             ""
+        ],
+        [
+            "2024",
+            "ASLB-Computeflow",
+            "C++, Core Dev, Load-balancer, Linux, AWS, Infrastructure, Embeded programming",
+            "https://github.com/Axnjr/Computeflow-ASLB"
+        ],
+        [
+            "2024",
+            "Computeflow - Soon",
+            "C++, Nextjs, Cloud-infrastructure, AWS, React, My Own Cloud",
+            "https://github.com/Axnjr/computeflow"
         ],
         [
             "2024",
@@ -62,7 +74,7 @@ export default function Works({ bg, col }) {
         [
             "2022",
             "Radha Programming Lang",
-            "Pure Vanilla JS, Core-dev",
+            "Core-Java, Javascript, OOP, Core-dev, My Own programming language",
             "https://github.com/Axnjr/Radha-Programming-Language",
         ],
         [
