@@ -55,13 +55,13 @@ export default function AbtWork({bg,col}) {
         <div>
 			<div ref={about} className='self-flex' id="abt">
 				<section style={{borderLeft:"none"}}></section>
-				<div className="vertical-line"></div>
+{/* 				<div className="vertical-line"></div> */}
 				<section></section>
-				<div className="vertical-line"></div>
+{/* 				<div className="vertical-line"></div> */}
 				<section style={{borderLeft:"none"}}></section>
-				<div className="vertical-line"></div>
+{/* 				<div className="vertical-line"></div> */}
 				<section></section>
-				<div className="vertical-line"></div>
+{/* 				<div className="vertical-line"></div> */}
 				<h1 ref={abt}>
 					<SubElements text='A developer dedicated to building scalable, high-performance applications 
 					with meticulous attention to detail,, living on planet Earth, 
@@ -73,10 +73,10 @@ export default function AbtWork({bg,col}) {
        	<div ref={about2} className="bit-abt-me-wrapper">
 			<div className="horizontal-line"></div>
 	   		<section className="flowing-tech-stack">
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
-				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; Css &nbsp;|&nbsp; Gsap &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; GraphQL &nbsp;| </h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; C++ &nbsp;|&nbsp; Java &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; Astro &nbsp;| </h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; C++ &nbsp;|&nbsp; Java &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; Astro &nbsp;| </h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; C++ &nbsp;|&nbsp; Java &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; Astro &nbsp;| </h1>
+				<h1>&nbsp; React &nbsp;|&nbsp; React-native &nbsp;|&nbsp; Next &nbsp;|&nbsp; TypeScript &nbsp;|&nbsp; nodeJs &nbsp;|&nbsp; express &nbsp;|&nbsp; C++ &nbsp;|&nbsp; Java &nbsp;|&nbsp; Python &nbsp;|&nbsp; Trpc &nbsp;|&nbsp; Tailwind &nbsp;| Rust &nbsp;|&nbsp; Astro &nbsp;| </h1>
 			</section>
 			<div className="horizontal-line"></div>
 			<div className="bit-abt-me" ref={abt2}>
