@@ -71,7 +71,7 @@ export default function Home() {
 					<div className='nav-list'>
 						<p onClick={HandleSwitch}>Modes</p>
 						<a href='https://github.com/Axnjr'><p>Github</p></a>
-						<a href='https://twitter.com/YC59094'><p>Twitter</p></a>
+						<a href='https://twitter.com/axnsscode'><p>Twitter</p></a>
 						<a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
 						<a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
 						<a href='https://drive.google.com/file/d/1Hqhc36UncJ6R_khwLl0nImeZWwhhaPsC/view'><p>Resume</p></a>
