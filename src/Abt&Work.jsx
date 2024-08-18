@@ -82,7 +82,7 @@ export default function AbtWork({bg,col}) {
 			<div className="bit-abt-me" ref={abt2}>
 				<h1>
 					<SubElements text={`
-     						I'm litrally Full Stack Developer: Embedded Systems, Machine Learning, Cloud Infrastructure, & Web.
+     						I'm literally Full Stack Developer: Embedded Systems, Machine Learning, Cloud Infrastructure, & Web.
 						Above is my overflowing tech stack. I'm currently working on SNN a C++ deep learning framework as a 
       						final year major project.
 					`} element="span" class_of_element="fancy-character-abt2" />
