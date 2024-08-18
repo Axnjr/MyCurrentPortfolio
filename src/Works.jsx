@@ -24,7 +24,7 @@ export default function Works({ bg, col }) {
     const project_object = [
         [
             "2024",
-            "Simple Neural-networks (SNN) - Soon",
+            "Simple Neural-networks - Soon",
             "C++, Core Dev, Deep Learning Framework, Machine-learning, Embeded programming",
             ""
         ],
