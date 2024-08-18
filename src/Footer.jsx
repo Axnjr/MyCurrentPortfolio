@@ -8,7 +8,7 @@ export default function Footer() {
 						<a href="https://www.linkedin.com/in/yakshit/"><h1>LinkedIn</h1></a>
 						<a href="https://github.com/Axnjr"><h1>GitHub</h1></a>
 						<a href="mailto:yakshitchhipa@gmail.com"><h1>Mail</h1></a>
-						<a href="https://drive.google.com/file/d/13CF7qVv-SmkSxw4lDdefquP189VvFipP/view"><h1>Resume</h1></a>
+						<a href="https://drive.google.com/file/d/1Hqhc36UncJ6R_khwLl0nImeZWwhhaPsC/view"><h1>Resume</h1></a>
 					</div>
 					<div className="credits">
 						<h2>credits</h2>
