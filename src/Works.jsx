@@ -25,7 +25,7 @@ export default function Works({ bg, col }) {
         [
             "2024",
             "Simple Neural-networks - Soon",
-            "C++, Core Dev, Deep Learning Framework, Machine-learning, Embeded programming",
+            "C++, Core Dev, Deep Learning Framework, Machine-learning",
             ""
         ],
         [
