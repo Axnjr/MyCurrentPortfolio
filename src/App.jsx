@@ -74,7 +74,7 @@ export default function Home() {
 						<a href='https://twitter.com/axnsscode'><p>Twitter</p></a>
 						<a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
 						<a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
-						<a href='https://drive.google.com/file/d/1CE0JCbTsIV_dps1E50z8695EZovl5Wd6/view'><p>Resume</p></a>
+						<a href='https://drive.google.com/file/d/1QEf4EYBAeUxd1vXjffgeEFPTWD0wC-Wr/view'><p>Resume</p></a>
 					</div>
 					<div className='hamburger-menu-button'>
 						<section style={{ display: "block" }} onClick={MenuAppear}>
