@@ -30,6 +30,18 @@ export default function Works({ bg, col }) {
         ],
         [
             "2024",
+            "Ignition - Backend",
+            "Rust, WebSockets, Kafka, Linux, AWS, Infrastructure, Embeded programming",
+            "https://github.com/Axnjr/Ignite"
+        ],
+        [
+            "2024",
+            "Ignition - Web App",
+            "Rust WASM, Next.js, shadcn-UI, WebSockets, Kafka, AWS Lambda, Infrastructure",
+            "https://github.com/Axnjr/Ignition-Web"
+        ],
+        [
+            "2024",
             "ASLB-Computeflow",
             "C++, Core Dev, Load-balancer, Linux, AWS, Infrastructure, Embeded programming",
             "https://github.com/Axnjr/Computeflow-ASLB"
