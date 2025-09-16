@@ -111,7 +111,7 @@ export default function Home() {
 							</div>
 							<div className='line'></div>
 							<div>
-								<a><p>©2024</p></a>
+								<a><p>©2025</p></a>
 								<h1 className='fancy-h1'>
 									<SubElements text="Engineer" element="span" class_of_element="fancy-character" />
 								</h1>
