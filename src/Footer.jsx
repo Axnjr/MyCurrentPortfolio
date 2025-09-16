@@ -13,7 +13,7 @@ export default function Footer() {
 					<div className="credits">
 						<h2>credits</h2>
 						<h1>Dev By - Myself</h1>
-						<h1>Yakshit Chhipa - Axn</h1>
+						<h1>Govind - Axn</h1>
 						<h1><a href="https://github.com/Axnjr/Portfolio-template">Template for this 🤟😎</a></h1>
 					</div>
 				</div>
