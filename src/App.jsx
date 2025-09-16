@@ -67,14 +67,14 @@ export default function Home() {
 			<Loader />
 			<div className='WRAPPER'>
 				<nav style={{ backgroundColor: bg }}>
-					<a href='#'><h1>Axn.</h1></a>
+					<a href='#'><h1>Govind.</h1></a>
 					<div className='nav-list'>
 						<p onClick={HandleSwitch}>Modes</p>
 						<a href='https://github.com/Axnjr'><p>Github</p></a>
 						<a href='https://twitter.com/axnsscode'><p>Twitter</p></a>
 						<a href='https://www.linkedin.com/in/yakshit/'><p>LinkedIn</p></a>
 						<a href="mailto:yakshitchhipa@gmail.com"><p>Mail</p></a>
-						<a href='https://drive.google.com/file/d/1QEf4EYBAeUxd1vXjffgeEFPTWD0wC-Wr/view'><p>Resume</p></a>
+						<a href='https://drive.google.com/file/d/1LwUyQUPRWpDbMeN1R99yT3AMYXm5Mv5q/view?usp=sharing'><p>Resume</p></a>
 					</div>
 					<div className='hamburger-menu-button'>
 						<section style={{ display: "block" }} onClick={MenuAppear}>
