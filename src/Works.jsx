@@ -24,9 +24,14 @@ export default function Works({ bg, col }) {
     const project_object = [
         [
             "2025",
-            "Simple Neural-networks - Soon",
+            "React-native-rs",
+            "Rust, React-native, Mobile dev, Android, iOS
+        ],
+        [
+            "2025",
+            "Simple Neural-networks",
             "C++, Core Dev, Deep Learning Framework, Machine-learning",
-            ""
+            "https://github.com/Axnjr/snn_be_pro"
         ],
         [
             "2024",
