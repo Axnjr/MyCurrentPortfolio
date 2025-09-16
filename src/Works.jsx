@@ -25,7 +25,8 @@ export default function Works({ bg, col }) {
         [
             "2025",
             "React-native-rs",
-            "Rust, React-native, Mobile dev, Android, iOS
+            "Rust, React-native, Mobile dev, Android, iOS",
+            "https://github.com/Axnjr/react-native-rs"
         ],
         [
             "2025",
